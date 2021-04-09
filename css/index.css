@@ -229,6 +229,18 @@ footer nav a {
 
 /* about section */
 
+.about-page .text-container {
+    width: 98%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+}
+
+.about {
+    border-bottom: 1px dashed black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 /* main content */
 .main-content {
     display: flex;
@@ -238,6 +250,11 @@ footer nav a {
 
 .main-content .info-boxes {
     width: 50%;
+    margin: 30px 0;
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
 }
 
 button {
@@ -245,5 +262,19 @@ button {
     color: black;
     font-size: 1.8rem;
     padding: 2% 6%;
-    border-radius: 30%;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 20px 0;
+}
+
+/* bottom section */
+.bottom .text-container{
+    width: 98%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+} 
+
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
 }
