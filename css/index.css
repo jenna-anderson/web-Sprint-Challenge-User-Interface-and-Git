@@ -51,6 +51,8 @@ table {
     box-sizing: border-box;
 }
 
+/* General styles */
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -71,6 +73,8 @@ p {
     margin: 0 auto;
 }
 
+/* top section */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +88,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* middle section */
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +118,8 @@ p {
     justify-content: center;
 }
 
+/* bottom section */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +133,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* footer */
 
 footer {
     width: 100%;
