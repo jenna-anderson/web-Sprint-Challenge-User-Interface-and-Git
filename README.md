@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-    Semantic html are elements that have meaningful names, such as header, section, nav. They are useful for screen readers, search engine optimization, and for yourself and other developers to better understand your code.
+    Semantic html are elements that have meaningful names, such as header, section, and nav. They are useful for screen readers, search engine optimization, and for yourself and other developers to better organize and understand your code.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
@@ -64,7 +64,7 @@ You are expected to be able to answer all these questions. Your responses contri
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
 
 
@@ -110,5 +110,5 @@ Note: Please make sure you are using flexbox to layout your website. Floats, inl
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
 * [X] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
-* [ ] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
-* [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
+* [X] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
+* [X] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
