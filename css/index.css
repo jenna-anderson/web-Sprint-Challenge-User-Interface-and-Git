@@ -48,18 +48,26 @@ table {
 
 * {
     box-sizing: border-box;
-    /* border: 1px solid grey; */
+    border: 1px solid grey;
 }
 
 /* General styles */
+html {
+    font-size: 62.5%;
+}
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    font-size: 1.6rem;
+}
+
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 1.8rem;
+    /* font-size: 18px; */
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -207,10 +215,35 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* about page */
+
+
+/* about section */
+
+/* main content */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main-content .info-boxes {
+    width: 50%;
+}
+
+button {
+    background-color: white;
+    color: black;
+    font-size: 1.8rem;
+    padding: 2% 6%;
+    border-radius: 30%;
 }
